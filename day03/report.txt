@@ -1,0 +1,5 @@
+Customer Spending Report
+------------------------------
+Yonas: ETB 400.00
+Sara: ETB 300.00
+Abel: ETB 250.00

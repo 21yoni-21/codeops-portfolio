@@ -1,0 +1,5 @@
+Paracetamol,15
+Amoxicillin,5
+Vitamin C,20
+Bandage,10
+Gloves,12

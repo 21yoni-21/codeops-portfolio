@@ -1,0 +1,7 @@
+Abel,120
+Yonas,250
+Sara,100
+Abel,80
+Yonas,150
+Sara,200
+Abel,50
