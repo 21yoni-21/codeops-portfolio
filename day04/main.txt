@@ -1,0 +1,41 @@
+## Day 4 – Classes, Objects & Encapsulation
+
+**Q1. What is the difference between a class and an object?**
+A class is a blueprint that defines attributes and methods. An object is an instance created from that class.
+
+**Q2. What does `__init__` do, and when does it run?**
+`__init__` is the constructor that initializes object data. It runs automatically when an object is created.
+
+**Q3. What is `self`, and why is it the first parameter of every method?**
+`self` refers to the current object. It is the first parameter because Python passes the object automatically when a method is called.
+
+**Q4. What problem does encapsulation solve in the Account class?**
+Encapsulation protects data from invalid changes by controlling access through methods and properties.
+
+**Q5. What's the difference between public, protected, and private attributes?**
+Public attributes can be accessed anywhere, protected attributes (`_name`) are for internal use by convention, and private attributes (`__name`) are hidden from direct access.
+
+**Q6. Why use `@property` instead of a plain attribute for balance?**
+`@property` allows controlled access and validation while keeping simple attribute-style access.
+
+---
+
+## Day 5 – Inheritance, Polymorphism & Abstraction
+
+**Q1. What does a child class inherit from its parent?**
+A child class inherits the parent's attributes and methods.
+
+**Q2. What does `super().__init__()` do, and why call it?**
+It calls the parent constructor to reuse and initialize the parent's attributes.
+
+**Q3. What is method overriding, and which version runs?**
+Method overriding is when a child class provides its own version of a parent method. The child version runs when called on a child object.
+
+**Q4. Define polymorphism in your own words, with an example.**
+Polymorphism means the same method call can have different behaviours depending on the object. Example: different account types using their own `statement()` method.
+
+**Q5. What does `@abstractmethod` enforce on subclasses?**
+It forces subclasses to implement a required method.
+
+**Q6. How do you decide between inheritance and composition?**
+Use inheritance for an "is-a" relationship and composition for a "has-a" relationship.
